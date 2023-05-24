@@ -11,7 +11,7 @@ This is a Java project that generates a work schedule for students writting thei
 * Graphic user inteface
 
 ## Usage
-1. Download the from the repository: ...
+1. Download the from the repository: https://github.com/JiM2128/Tieto.git
 2. Extract the file to any directory you like
 3. Lauch the "ScheduleGenerator.jar" file at "/ScheduleGenerator/out/artifacts/ScheduleGenerator_jar/ScheduleGenerator.jar"
 4. Enter the required data in the application
