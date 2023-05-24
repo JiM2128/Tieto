@@ -13,7 +13,7 @@ This is a Java project that generates a work schedule for students writting thei
 ## Usage
 1. Download the from the repository: ...
 2. Extract the file to any directory you like
-3. Lauch the "ScheduleGenerator.jar" file
+3. Lauch the "ScheduleGenerator.jar" file at "/ScheduleGenerator/out/artifacts/ScheduleGenerator_jar/ScheduleGenerator.jar"
 4. Enter the required data in the application
 5. To see and edit the Json files go to "JSON_files" directory
 6. When editing the "Input.json" keep the same formating that is provided
