@@ -17,6 +17,7 @@ This is a Java project that generates a work schedule for students writting thei
 4. Enter the required data in the application
 5. To see and edit the Json files go to "JSON_files" directory
 6. When editing the "Input.json" keep the same formating that is provided
+7. It is assumed that the first date entered into the "Input.json" file will be the starting date
 
 ## Contact
 If you have any questions please feel free to contact me at mince.justas88@gmail.com
