@@ -104,7 +104,7 @@ public class GUI extends JFrame {
 
             if(deadline.isBefore(data.get(0).getDate()))
             {
-                JOptionPane.showMessageDialog(mainPanel, "Invalid date input. Please enter a valid date (yyyy-MM-dd) before " + data.get(0).getDate().toString());
+                JOptionPane.showMessageDialog(mainPanel, "Invalid date input. Please enter a valid date (yyyy-MM-dd) after " + data.get(0).getDate().toString());
                 isValid = false;
             }
 
