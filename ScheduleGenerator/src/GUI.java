@@ -63,7 +63,7 @@ public class GUI extends JFrame {
                 ArrayList<Input> data;
 
                 try {
-                    data = fileIo.readData("C:\\Users\\Justas\\Desktop\\TietoHM\\ScheduleGenerator\\JSON_files\\Input.json");
+                    data = fileIo.readData("./JSON_files/Input.json");
                 }
                 catch (IOException ex) {
                     throw new RuntimeException(ex);
@@ -76,10 +76,10 @@ public class GUI extends JFrame {
                 {
                     ArrayList<Output> output = dataManager.createSchedule(resultLabel);
 
-                    System.out.println("------   FINAL   ------");
+                    System.out.println("------   FINAL OUTPUT  ------");
                     utility.printList(output);
 
-                    fileIo.printData(output, "C:\\Users\\Justas\\Desktop\\TietoHM\\ScheduleGenerator\\JSON_files\\Output.json");
+                    fileIo.printData(output, "./JSON_files/Output.json");
 
                     outputLabel.setText("Schedule generated and output to Json file \"Output.json\".");
                 }
